@@ -1,0 +1,22 @@
+Source: kcm-fcitx
+Section: kde
+Priority: optional
+Maintainer: IME Packaging Team <pkg-ime-devel@lists.alioth.debian.org>
+Uploaders: Aron Xu <aron@debian.org>, YunQiang Su <wzssyqa@gmail.com>
+DM-Upload-Allowed: yes
+Build-Depends: debhelper (>= 8), cmake, pkg-config, gettext, fcitx-libs-dev,
+ intltool, kdelibs5-dev
+Standards-Version: 3.9.2
+Homepage: http://code.google.com/p/fcitx
+Vcs-Git: git://git.debian.org/pkg-ime/kcm-fcitx.git
+Vcs-Browser: http://git.debian.org/?p=pkg-ime/kcm-fcitx.git
+
+Package: kde-config-fcitx
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: KDE configuration module for Fcitx
+ This is a configuration module for System Settings for configuring
+ the Free Chinese Input Toy of X.
+ .
+ It is designed to have similar functionalities to fcitx-config-gtk,
+ with better KDE4 integration. 

@@ -1,0 +1,5 @@
+kcm-fcitx (0.2.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #638870)
+
+ -- Aron Xu <aron@debian.org>  Fri, 21 Oct 2011 16:57:56 +0800
