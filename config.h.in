@@ -1,0 +1,6 @@
+#define VERSION_STRING_FULL "@VERSION_STRING_FULL@"
+#define DATADIR "@datadir@"
+#define LOCALEDIR "@localedir@"
+#define EXEC_PREFIX "@exec_prefix@"
+#define PACKAGE "@package@"
+#define FCITX4_EXEC_PREFIX "@FCITX4_EXEC_PREFIX@"
