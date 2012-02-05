@@ -1,3 +1,4 @@
+#!/usr/bin/env xdg-open
 [Desktop Entry]
 Exec=kcmshell4 kcm_fcitx
 Icon=fcitx
@@ -6,11 +7,11 @@ X-KDE-ServiceTypes=KCModule
 X-KDE-Library=kcm_fcitx
 X-KDE-ParentApp=kcontrol
 
-X-KDE-System-Settings-Parent-Category=application-appearance-and-behavior
+X-KDE-System-Settings-Parent-Category=locale
 
-Name=Fcitx
-Name[zh_CN]=Fcitx
-Comment=Configure Fcitx
-Comment[zh_CN]=配置 Fcitx
+Name=Fcitx Input Method Configuration
+Name[zh_CN]=Fcitx 输入法配置
+Comment=Configure Fcitx Input Method
+Comment[zh_CN]=配置 Fcitx 输入法
 
 Categories=Qt;KDE;X-KDE-settings-looknfeel;
